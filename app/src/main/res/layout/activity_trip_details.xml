@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripDetailsActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/vakashalogotransparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/lblTripName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtViewTripName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/lblCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtViewCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/lblTripDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip Date:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+            android:layout_marginTop="10dp"/>
+        />
+
+        <TextView
+            android:id="@+id/txtViewTripDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/lblTripDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip Details:"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+/>
+        />
+
+        <TextView
+            android:id="@+id/txtViewTripDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnViewTripHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View All Trips" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

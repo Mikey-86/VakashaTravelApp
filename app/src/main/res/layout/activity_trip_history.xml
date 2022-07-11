@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripHistoryActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/vakashalogotransparent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/lblTextViewTripHistoryList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Trips"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ListView
+                android:id="@+id/lstTripHistory"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+            </ListView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </Space>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

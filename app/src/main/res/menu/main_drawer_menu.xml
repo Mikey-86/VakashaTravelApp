@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item android:id="@+id/nav_customers"
+        android:icon="@drawable/ic_baseline_airplanemode_active_24"
+        android:title="Home">
+
+    </item>
+
+    <item android:id="@+id/nav_orders"
+        android:icon="@drawable/ic_baseline_airport_shuttle_24"
+        android:title="Add Trips">
+
+    </item>
+
+
+
+    <item android:id="@+id/nav_riders"
+        android:icon="@drawable/ic_baseline_card_travel_24"
+        android:title="View Trips">
+
+    </item>
+
+    <item android:id="@+id/nav_sales"
+        android:icon="@drawable/ic_baseline_beach_access_24"
+        android:title="View Trip Collections">
+
+    </item>
+
+
+
+
+</group>
+</menu>

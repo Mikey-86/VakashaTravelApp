@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949679135215",
+    "project_id": "vakashatravelapptest",
+    "storage_bucket": "vakashatravelapptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949679135215:android:3bbceeb14e6e12cfb57e1a",
+        "android_client_info": {
+          "package_name": "com.vakashatravelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949679135215-0rsggfamj81c1cedf5u8p26r6bm70qmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzGdITuRI5Zql0-EOgeJYi4ZPqI0o2oHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949679135215-0rsggfamj81c1cedf5u8p26r6bm70qmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

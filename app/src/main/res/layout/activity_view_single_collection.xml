@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSingleCollection"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/vakashalogotransparent" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/lblCollectionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection Name:"
+            android:textColor="@color/navy"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtViewCollectionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection Name"
+            android:textStyle=""
+            android:textSize="20sp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/lblCollectionGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection Goals:"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        />
+
+        <TextView
+            android:id="@+id/txtViewCollectionGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/lblCollectionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection Details:"
+            android:textStyle="bold"
+            android:textColor="@color/navy"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        />
+
+        <TextView
+            android:id="@+id/txtViewCollectionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/lblNumberOfTrips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Trips in Collection: "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/navy"
+
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtViewNumberOfTrips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/lblGoal_Progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goal Progress"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/navy"
+
+            android:textSize="20sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/lblTripNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip Names "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/navy"
+
+            android:textSize="20sp"/>
+
+        <ListView
+            android:id="@+id/lstViewTrips"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddTripToCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Trip To This Collection" />
+</LinearLayout>
